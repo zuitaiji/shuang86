@@ -1,0 +1,287 @@
+.top{background-color: #FAFAFA;min-width: 1200px}
+.top span{padding: 0 14px}
+.head{width: 1200px; line-height: 36px;}
+/*---------------------------------------- 中部导航--*/
+.mid{width: 1200px}
+.conterner_one{margin-top: 30px}
+.logo>a{
+    display: block;
+    width: 70px;
+    height: 70px;
+    background: url("../images01/logo.png") no-repeat center center;
+}
+.shop>span:first-child{
+    display: inline-block;
+    width: 15px;
+    height: 16px;
+    background: url("../images01/clock.png") no-repeat center center;
+    top: 2px;
+}
+.shop{margin-top: -10px}
+.search{margin-top: 5px;color: #A7A7A7;}
+.search>input:first-child{
+    width: 390px;
+    height: 40px;
+    text-indent: 20px;
+    font-size: 16px;
+}
+.find{
+    width: 40px;
+    height: 40px;
+    border-left: none;
+    background: url("../images01/fangdajing.png") no-repeat center center;
+    top: 14px;
+    left: -5px;
+}
+.shopcar{
+    width: 125px;
+    height: 40px;
+    background:#FFDB3D url("../images01/shopcar.png") no-repeat 30px center;
+    padding-left: 20px;
+}
+.goods{
+    width: 170px;
+    top: 50px;
+    left: 210px;
+    font-size: 12px;
+}
+.goods>a{
+    margin-right: 5px;
+    background-color: #F1F1F1;
+    padding: 2px;
+}
+.subnav{margin-top: 20px}
+.subnav>div{
+    line-height: 50px;
+    text-align: center;
+}
+.subnav a{
+    color: white;
+    font-size:19px;
+    height: 50px;
+    display: inline-block;
+}
+.subnav a:hover{color: #fe763e}
+.subnav_left{
+    width: 250px;
+    background-color: #FF4A00;
+}
+.subnav_left>a:first-child{padding-right: 110px}
+.subnav_left>a:last-child{font-weight: bolder;}
+.subnav_right{
+    width: 950px;
+    background-color: #404145;
+}
+.subnav_right>a{
+    display: inline-block;
+    padding: 0 18px
+}
+/*---------------------------------------- 中部内容--*/
+.main{margin-top: 10px;}
+.main>span{padding: 0 5px}
+.main>div{margin-top: 10px;}
+
+.picture_home{
+    display: block;
+    height: 300px;
+    background: url("../images02/fuwu-header-1.jpg") no-repeat center center;
+}
+.left01,.right01{
+    display: inline-block;
+    width: 41px;
+    height:69px;
+    top: 50%;
+    transform:translate(0,-50%)
+}
+.left01{background: url("../images02/icon-slides.png") no-repeat 66% center;}
+.left01:hover{background: url("../images02/icon-slides.png") no-repeat 0 center;}
+.right01{
+    background: url("../images02/icon-slides.png") no-repeat 100% center;
+    right: 0;
+}
+.right01:hover{background: url("../images02/icon-slides.png") no-repeat 33% center;}
+
+
+.main>p{margin: 20px 0}
+.nin{display:block;line-height:50px; font-size: 20px;color: black}
+
+.content01{height:320px;margin-bottom: 20px}
+.content01>div{height: 280px;text-align: center;border-radius: 10px}
+.content01>div:hover{box-shadow: 0 0 150px #FAFAFA inset}
+.content01>a{font-size: 20px;color: black}
+.picture_wares{
+    display: block;
+    height: 220px;
+}
+.picture_wares01{background: url("../images02/goodsList01.jpg") no-repeat center center;}
+.picture_wares02{background: url("../images02/goodsList02.jpg") no-repeat center center;}
+.picture_wares03{background: url("../images02/goodsList03.jpg") no-repeat center center;}
+.picture_wares04{background: url("../images02/goodsList05.jpg") no-repeat center center;}
+.content02{height: 380px;}
+.function01>div{
+    height: 150px;
+    width: 24.375%;
+    background-color: #FAFAFA;
+    border-radius: 10px;
+}
+.function01>div:not(:nth-child(1)){margin-left: 10px}
+.picture_function01{background:url("../images02/index_01.jpg") no-repeat center 30%}
+.picture_function02{background:url("../images02/index_02.jpg") no-repeat center 30%}
+.picture_function03{background:url("../images02/index_03.jpg") no-repeat center 30%}
+.picture_function04{background:url("../images02/index_04.jpg") no-repeat center 30%}
+.picture_function05{background:url("../images02/index_04.jpg") no-repeat center 30%}
+.picture_function06{background:url("../images02/index_06.jpg") no-repeat center 30%}
+.picture_function07{background:url("../images02/index_07.jpg") no-repeat center 30%}
+.picture_function08{line-height: 150px}
+.picture_function08>input{
+    width: 180px;
+    height: 45px;
+    text-indent: 10px;
+}
+.picture_function08>button{
+    width: 45px;
+    height: 45px;
+    background: url("../images02/fangdajing.png") no-repeat center center;
+    position: relative;
+    top: 17px;
+    left: -5px;
+    border-left: none;
+}
+.function01{margin-top: 5px}
+.content02 p{margin-top: 32%;font-size: 20px;color: black}
+.function01>div:hover{
+    box-shadow: 0 0 50px gray;
+}
+.content02>a{
+    font-size: 20px;
+    color: black;
+    display: inline-block;
+    margin-top: 30px;
+}
+.content03{height: 250px;margin-top: 40px}
+.content03>div{height:215px }
+.content03 ul{margin-left: 15px}
+.bigfont{font-size: 20px;color: black}
+.question{margin-bottom: 15px}
+.question01{margin: 7px 0}
+
+.content04{margin: 50px 0}
+.content04>div{
+    height: 450px;
+    width: 23.75%;
+}
+.content04>div:not(:nth-child(1)){margin-left: 20px}
+.picture_people{
+    display: block;
+    height: 360px;
+}
+.content04>div:hover{
+    box-shadow: 0 0 50px gray;
+}
+.picture_people01{background: url("../images02/index-customers_01.jpg") no-repeat center center}
+.picture_people02{background: url("../images02/index-customers_02.jpg") no-repeat center center}
+.picture_people03{background: url("../images02/index-customers-03.jpg") no-repeat center center}
+.picture_people04{background: url("../images02/index-customers_04.jpg") no-repeat center center}
+
+.color_black{
+    height: 90px;
+    background-color: #333333;
+    margin-top: -1px;
+}
+.bigfont11,.bigfont12{color: white;}
+.bigfont11{font-size: 20px;}
+.bigfont12{font-size: 15px;}
+.guan{padding-top: 18px;padding-bottom: 8px}
+
+/*---------------------------------------- 底部--*/
+.bottom{
+    background-color: #FAFAFA;
+    height: 530px;
+}
+.conterner_four{
+    width: 1200px;
+    text-align: center;
+}
+.mend{
+    height: 160px;
+}
+.mend a{
+    display: block;
+    width: 240px;
+    height: 160px;
+}
+.mend span{
+    font-size: 20px;
+    color: black;
+    display: inline-block;
+    margin-top: 110px;
+}
+.img_01{background: url("../images01/10.png") no-repeat center center}
+.img_02{background: url("../images01/11.png") no-repeat center center}
+.img_03{background: url("../images01/12.png") no-repeat center center}
+.img_04{background: url("../images01/13.png") no-repeat center center}
+.img_05{background: url("../images01/14.png") no-repeat center center}
+.kd_1{
+    width: 190px;
+    height: 120px;
+    margin: 40px 0;
+    text-align: left;
+    padding-left: 20px;
+}
+.online{
+    width: 250px;
+    height: 120px;
+    margin: 40px 0;
+}
+.help li{
+    padding: 4px 0;
+}
+.handbook a{
+    font-size: 20px;
+    color: black;
+}
+.online>p:first-child{
+    font-size: 25px;
+    color: black;
+}
+.online>p:nth-child(2){padding: 5px 0}
+.online>button{
+    width: 120px;
+    height: 30px;
+    background-color: #FF4A00;
+    margin-top: 15px;
+    color: white;
+}
+.website{margin-top: 20px;}
+.website a{color: black}
+.website{font-size: 12px;color: black}
+.website span{padding: 0 3px;}
+.website p{margin-top: 5px}
+.fully{
+    margin-top: 20px;
+    width: 500px;
+    text-align: center;
+}
+.tb{
+    display: inline-block;
+    width: 169px;
+    height: 25px;
+    background: url("../images01/16.png") no-repeat center center;
+}
+.b_1{
+    width: 200px;
+    height: 40px;
+    text-indent: 15px;
+    position: relative;
+    top: -10px;
+}
+.b_2{
+    width: 14px;
+    height: 9px;
+    background: url("../images01/indexSelect.png") no-repeat center center;
+    border: none;
+    position: relative;
+    top: -10px;
+    left: -25px;
+}
+a:hover{color: #fe763e}
